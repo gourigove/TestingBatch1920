@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="15016" started-at="2020-04-22T11:19:29Z" finished-at="2020-04-22T11:19:44Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="15016" started-at="2020-04-22T11:19:29Z" finished-at="2020-04-22T11:19:44Z">
+      <class name="com.cjc.testcases.registertestcase">
+        <test-method status="PASS" signature="openbrowser()[pri:0, instance:com.cjc.testcases.registertestcase@3bfdc050]" name="openbrowser" is-config="true" duration-ms="8416" started-at="2020-04-22T11:19:20Z" finished-at="2020-04-22T11:19:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method status="PASS" signature="enterurl()[pri:0, instance:com.cjc.testcases.registertestcase@3bfdc050]" name="enterurl" is-config="true" duration-ms="5763" started-at="2020-04-22T11:19:29Z" finished-at="2020-04-22T11:19:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterurl -->
+        <test-method status="PASS" signature="cookies()[pri:0, instance:com.cjc.testcases.registertestcase@3bfdc050]" name="cookies" is-config="true" duration-ms="63" started-at="2020-04-22T11:19:35Z" finished-at="2020-04-22T11:19:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cookies -->
+        <test-method status="PASS" signature="Register()[pri:0, instance:com.cjc.testcases.registertestcase@3bfdc050]" name="Register" duration-ms="6940" started-at="2020-04-22T11:19:35Z" finished-at="2020-04-22T11:19:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Register -->
+        <test-method status="PASS" signature="maximizePage()[pri:0, instance:com.cjc.testcases.registertestcase@3bfdc050]" name="maximizePage" is-config="true" duration-ms="2168" started-at="2020-04-22T11:19:42Z" finished-at="2020-04-22T11:19:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- maximizePage -->
+      </class> <!-- com.cjc.testcases.registertestcase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
