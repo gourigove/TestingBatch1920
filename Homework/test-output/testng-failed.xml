@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="password" value="manjusha"/>
+  <parameter name="password2" value="gove"/>
+  <parameter name="password1" value="manjusha"/>
+  <parameter name="username2" value="gouri"/>
+  <parameter name="username1" value="manjusha2"/>
+  <parameter name="username" value="manjusha1"/>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="MercuryReg.parameter.MercuryReg">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="login1" invocation-numbers="0"/>
+          <include name="log" invocation-numbers="0"/>
+          <include name="getCookies"/>
+          <include name="maximizePage"/>
+          <include name="openUrl"/>
+        </methods>
+      </class> <!-- MercuryReg.parameter.MercuryReg -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

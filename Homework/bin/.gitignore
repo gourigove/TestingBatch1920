@@ -1,0 +1,17 @@
+/.classpath
+/.project
+/.settings/
+/Action/
+/DataproviderMercurySine/
+/DataproviderMultiple/
+/DataproviderMultipleUser/
+/DragDrop/
+/FBXmlRegAnnotation/
+/FbregXml/
+/MercuryReg/
+/MercurySinup/
+/MercuryValidIn/
+/com/
+/dataproviderMercurySinup/
+/debug.log
+/test-output/
