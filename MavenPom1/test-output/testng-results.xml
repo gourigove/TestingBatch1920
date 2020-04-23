@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="21345" started-at="2020-04-16T09:28:28Z" finished-at="2020-04-16T09:28:50Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="21345" started-at="2020-04-16T09:28:28Z" finished-at="2020-04-16T09:28:50Z">
+      <class name="com.cjc.testcases.RegisterTest">
+        <test-method status="PASS" signature="regcheck()[pri:0, instance:com.cjc.testcases.RegisterTest@4501b7af]" name="regcheck" duration-ms="21297" started-at="2020-04-16T09:28:28Z" finished-at="2020-04-16T09:28:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- regcheck -->
+      </class> <!-- com.cjc.testcases.RegisterTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
