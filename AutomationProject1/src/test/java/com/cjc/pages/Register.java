@@ -19,6 +19,7 @@ public class Register {
 	}
 	public void verifyRegister() throws IOException
 	{
+		system.out.println("Git changes");
 	FileInputStream fis=new FileInputStream("F:\\Testing_WorkSpace\\Automation\\AutomationProject1\\Parameter.properties");
 	pro.load(fis);
 	driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
