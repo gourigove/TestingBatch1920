@@ -11,6 +11,7 @@ public class Demo {
 		System.setProperty("webdriver.chrome.driver", "F:\\\\\\\\jar files\\\\\\\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
+		system.out.println("git changs")
 		driver.get("file:///F:/Testing_WorkSpace/Fileupload.html");
 		driver.findElement(By.cssSelector("body > input[type=file]")).click();
 		//Runtime.getRuntime().exec("C:\\Users\\Dell\\Desktop\\AutoIT\\Fileupload.exe");
